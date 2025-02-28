@@ -1,5 +1,3 @@
-age = input('How old are you? ')
-print (f'In 10 yeards, you will be {int(age) + 10} years old.')
-print (f'In 20 yeards, you will be {int(age) + 20} years old.')
-print (f'In 30 yeards, you will be {int(age) + 30} years old.')
-print (f'In 40 yeards, you will be {int(age) + 40} years old.')
+age = int(input(f'how old are you? '))
+for future in range (10,50, 10):
+   print(f'in {future} years, you will be {future + age} years old') 
