@@ -18,8 +18,3 @@ def all_actions():
     print(counter)                # 101
 
 all_actions()
-def ojojo:
-
-Convert Indentation to Spaces
-
-
