@@ -1,0 +1,31 @@
+#What are the main built-in data types in Python?
+Strings, boolean, sets, tuples, lists, dictionaries, range, None, Binary types, numeric types (integers, floats, and complex)
+
+#Do variables have types?
+Yes and no, python is a bit ambiguous, in other programs once we assign a type to a variable we cannot change it, but python is more flexible 
+
+#Can you perform operations between different data types?
+Depending on what types.  
+
+#What is type coercion? How can you perform coercion?
+LS: converting one data type to another, using a function that makes the change (name constructors) f.g. str(1)
+
+#What is the difference between explicit and implicit type coercion?
+LS
+Implicit is when python does it for us 2 + 2.5
+Explicit is when we ask python to change the type with a constr. str(1)
+
+#What is the difference between an expression and a statement?
+LS
+an expression is any type of code that produces a value 
+3 + 5           # evaluates to 8
+"hello".upper() # evaluates to 'HELLO'
+x * 2           # produces a value based on x
+
+
+a statement is an instruction that performs an action (it may contain an expression within that will produce a value, but not always)
+
+x = 10              # assignment statement
+print("Hello")      # function call statement
+if x > 5:           # conditional statement
+    print("big")

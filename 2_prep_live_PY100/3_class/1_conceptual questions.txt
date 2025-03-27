@@ -1,0 +1,34 @@
+1. What is  variable in python, and why do we need them?
+A variable in an object to which we assign a value, this value can be reassign as many times as needed.
+A variable is used to store data. 
+
+2. What is an expression? How is an expression different from a statement? What are some examples?
+
+An expression is any piece of code that has a value as a result.
+Another way of testing if we have an expression is if we can print it in the REPL>>> print()
+
+3 + 4          # Expression (evaluates to 7)
+len("hello")   # Expression (evaluates to 5)
+x * y          # Expression (returns the product of x and y)
+
+
+A statement is a complete line of code that does something.
+It may contain one or more expressions, but it's focused on action, like assigning, defining, or controlling flow.
+it doesn't have to return a value.
+
+x = 3 + 4        # Assignment statement (contains an expression)
+def greet():     # Function definition statement
+    print("Hi")  # Print statement
+if x > 5:        # Conditional statement (contains expression `x > 5`)
+
+3. What is the difference between a local variable and a constant in Python?
+
+A local variable is a variable within a function, that doesn't affect the global variables outside the function.
+
+A constant in Python represents a value that we don't want to change in Python and we should not change it, and easy way of identifying them is that they are represented in capital letters. 
+
+4. What is the difference between reassignment and mutation?
+reassignment is when we assign a new value to a variable
+mutation is when we change the value in place and it can be done only with mutable objects like lists, dictionaries, sets
+
+contrary of non mutable objects: int, floats, complex, strings, tuples, frozen sets 

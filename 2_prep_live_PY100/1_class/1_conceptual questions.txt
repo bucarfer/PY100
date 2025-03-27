@@ -1,0 +1,22 @@
+1. What is a variable and why is it useful
+
+A variable is an object to which we assign a value, it is useful because we can change the value and store it.
+LS, a variable can point two different points in memory, we can label data to use it in the future.
+
+2. What is the purpose of a comment in code?
+
+It is to add some text as a clarification that we don’t want to interact with the code 
+
+LS, add a to do list for later, 
+
+3. What happens when an exception is thrown in our code?
+
+No idea what is an exception in code
+
+LS, we get a message and the program stops working, very important to read the messages to try to understand why the program stop working and how to fix the code 
+
+GPT, an exception is an error that occurs during the program execution that disrupts the normal flow of the program. 
+
+4. Is there a difference between the RPL and running our code?
+
+Running our code is the best option because it allows us to write longer pieces of code and modify it. RPL is just to check a line of code for small tests, but once we press enter we can not modify the previous code, we have to reenter it.
