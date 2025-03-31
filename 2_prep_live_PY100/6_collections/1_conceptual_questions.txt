@@ -1,0 +1,22 @@
+1. Are sequences collections? What about mappings?
+Yes, sequences they are a type of collection, sequence is an ordered collection where its elements have a position/index
+(list, tuples, str, ranges)
+Yes, mappings are also a type of collection, mappings are an unordered collection of key_value pairs. the most common mapping is dictionary.
+
+2. What is the difference between sequence, mapping, and sets?
+-sequence is an ordered collection where elements have indexes
+there are some specific functions like sorting or slice that are only available in ordered collections, also sequence can have repetitive elements. 
+-mapping is an unordered collection with key-value pairs
+-sets are an unordered collection of unique elements. 
+
+3. What are our common immutable collection in Python?
+tuples (forgot), sequence, an unordered immutable collection. 
+frozenset , sets
+strings, sequences 
+range, sequences  
+
+4. What happens when we try to access a value from a dictionary with a key that doesn't exist? How can we avoid this?
+We get an KeyError, we can avoid this by using the function "get" or "in"
+
+5. What happens when we try to access an index value in a list but it doesn't exist? How can we avoid this?
+We get an indexError, we can avoid it by checking the length and making sure is the index is within. 
