@@ -1,0 +1,56 @@
+Tips to start the core curriculum 
+
+Prep are not mastery based
+
+two-pass approach (multiple-pass)
+first pass -> stress-free (if you need to check the solution is ok)
+second pass -> lights on, everything makes sense (you should be able to resolve all the exercises, apart from the very challenging one)
+
+# SPOT sessions, Brandi recommends to join the spot sessions 
+as soon as we can. 
+
+# TA-led study sessions (same as SPOT sessions)
+
+# De-isolate (everyone is selfmotivated and wants study bodies)
+
+At least meet once or twice a week to study in groups
+Hanging up in slack and asking questions when you have to 
+
+1. What does it mean to reassign a variable?
+to give a variable a new value, pointing to a new location where the new value is stored
+
+The old object (object A) will stay in the memory
+
+2. Is it possible to have multiple variables pointing to the same object?
+Yes, lots of variables can point to one object 
+
+3. Can variables reference other variables?
+No, we can point a variable to another variable value, but if we change the value of the reference valuable it will not update the value automatically of the other variable
+a = 42
+b = 32
+
+a = b 
+a = 32 
+
+# a = 32 CORRECT 
+# a = b = 32 NOT CORRECT 
+
+b = 'foo'
+print(a) = 32 
+
+4. Can I create a list that contains variables?
+In reality no, we can create a list with variables, but the variables are changed by its values as soon as we print the list, and we will not be able to use a variable if the variable doesn't point to a value 
+
+c = 1
+d = 2
+e = 3
+
+my list = [c, d, e]
+print(my_list) = [1, 2, 3]
+
+c = 'boo'
+
+print(my_list) = [1, 2, 3]
+
+5. Are there any other pointers that we have to consider when discussing variables as pointers?
+LS. collections could be pointers, list indexes and dictionary keys act in a very similar way than pointers. 
